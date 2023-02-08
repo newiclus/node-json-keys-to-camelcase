@@ -1,0 +1,21 @@
+{
+  "name": "process_json_file",
+  "version": "0.1.0",
+  "description": "json file exercise",
+  "main": "src/index.js",
+  "author": "Junihor Moran",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
